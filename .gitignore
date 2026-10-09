@@ -245,3 +245,5 @@ checkpoints/
 
 # Mac files
 .DS_Store
+
+data/fixture_v1/

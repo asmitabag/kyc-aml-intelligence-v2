@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn
+fastapi
+uvicorn
+pydantic
+httpx            # only needed for the API tests (fastapi TestClient)
+torch            # GNN training/inference; install the build that matches your machine (CPU is enough)
+torch_geometric  # GraphSAGE layers
