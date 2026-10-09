@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local virtual environment
+.venv/
+
+# Credentials
+.env
+.env.*
+
+# Generated datasets and sensitive files
+data/raw/
+data/processed/
+data/kyc/
+
+# Model weights
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Mac files
+.DS_Store
